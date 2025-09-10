@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    background-color: powderblue;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+}
+h1 {
+  color: darkblue;
+}
+h3 {
+  color:#2c3e50;
+  font-style: 1.4em;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+a
+{
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid black;
+  color: white;
+  background-color: #2c3e50;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+}
+
+.container{
+  max-width: 800px;
+  margin: auto;
+
+}
