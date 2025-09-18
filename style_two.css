@@ -1,0 +1,94 @@
+body {
+    background: purple;
+      background-color: gray;
+      margin: 0 1in;
+      padding: 0;
+      text-align: left;
+      min-height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      
+}
+
+a {
+    padding: 16px 16px;
+    border: 2px solid black;
+    color: #103961;
+    background-color: #8aa7c5;
+    border-radius: 3px;
+    font-weight: bold;
+    border: 2px solid white;
+    margin: 0 15px;
+}
+
+h1 {
+    border-bottom: 5px solid black;
+    text-align: left;
+}
+  
+h2 {
+    border-bottom: 4px dotted blue;
+    text-align: left;
+}
+
+h4 {
+    border-bottom: 3px dashed green;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+div {
+    border-bottom: double;
+}
+
+button, body > a:nth-of-type(1), body > a:nth-of-type(2), body > a:nth-of-type(3), body > a:nth-of-type(4), body > a:nth-of-type(5){
+    display: inline-block
+}
+
+body {
+    position: relative;
+}
+
+body > p:nth-of-type(2),
+body > p:nth-of-type(3),
+body > p:nth-of-type(4),
+body > p:nth-of-type(5) {
+    position: relative;
+    width: 50%;
+    float: left;
+    clear: left;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+img {
+    position: relative;
+    float: right;
+    clear: right;
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+  }
+
+button {
+    padding: 16px 16px;
+    border: 2px solid black;
+    color: #103961;
+    background-color: #8aa7c5;
+    border-radius: 3px;
+    font-weight: bold;
+    border: 2px solid white;
+    margin: 0 15px;
+}
